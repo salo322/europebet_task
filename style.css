@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-size: cover;
-    width: 100%;
+    width:100%;
     background-image: url('./images/Home.png');
     background-repeat: no-repeat;
     background-color: #18005A;
@@ -68,9 +68,31 @@ body{
 .benz{
     display: flex;
     justify-content: space-between;
-    width: 43vw;
+    width: 42.1vw;
+    background: #329DBE;
+    margin: 2vw auto;
+    height: 3vw;
+    border-radius: 10px 0px 10px 10px;
 }
 .benz p{
+    display: flex;
     color: #fff;
     align-items: center;
+    font-size: 1.3vw;
+}
+.benz img{
+    height: 3vw;
+    background: #329DBE;
+    padding: 7px;
+    border-radius: 50px;
+    margin: -0.9vw 2vw;
+    
+}
+.leaderboards-title{
+    font-size: 1vw;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 32vw;
 }
