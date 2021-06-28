@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    width: 100%;
+    background-image: url('./images/Home.png');
+    background-repeat: no-repeat;
+    background-color: #18005A;
+}
+.header-image{
+ 
+}
+.layer2{
+   height: 1.5vw;
+}
+.flex-container{
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    
+}
+.rectangle p{
+    border-radius: 50px 0 50px 50px;
+    color: #fff;
+    font-size: 0.8vw;
+    padding: 0.3vw 2vw;
+    max-width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background: rgb(33,213,232);
+    background: linear-gradient(90deg, rgba(33,213,232,1) 0%, rgba(3,79,150,1) 100%);
+}
+.rectangle{
+    margin: 0 auto;
+    
+}
+.header-title{
+    font-size: 1.5vw;
+}
+.header-container{
+    margin-top: 3.3vw;
+}
+.under-header-title{
+    margin-top: 11vw;
+    display: grid; 
+}
+.under-header-title p{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    font-size:0.9vw;
+}
+.play-button{
+    color: #fff;
+    background: #13BC1B;
+    outline: none;
+    border: none;
+    font-size: 0.7vw;
+    padding: 0.5vw 1.6vw;
+    margin: 0.7vw auto;
+    cursor: pointer;
+}
+.benz{
+    display: flex;
+    justify-content: space-between;
+    width: 43vw;
+}
+.benz p{
+    color: #fff;
+    align-items: center;
+}
