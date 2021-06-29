@@ -108,3 +108,21 @@ const slider = document.querySelector(".items");
 			slides[next].classList.add("next");
 		}
 
+		const acordion = Array.from(document.getElementsByClassName("accordion"));
+		const arrows = document.querySelectorAll('.acordion_inner_div img')
+		console.log(arrows)
+		acordion.forEach(element => {
+			element.addEventListener('click', function() {
+				this.classList.toggle("active");
+				let index =  acordion.indexOf( this );
+				let specificArrow =  arrows[index];
+				if(specificArrow.classList.contains('arrow-active')) {
+				   specificArrow.classList.remove('arrow-active')
+				}
+				else {
+				   specificArrow.classList.add('arrow-active')
+				}
+				let panel = this.nextElementSibling;
+				panel.style.maxHeight ?  panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + "px";
+			})
+		});
