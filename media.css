@@ -91,6 +91,9 @@
 
 
     @media only screen and (max-width: 790px) {
+        .mobile_slider{
+            display: flex;
+        }
         .flex-container_last {
             margin: 70px 5%;
         }

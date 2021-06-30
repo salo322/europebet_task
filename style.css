@@ -145,13 +145,13 @@ body {
   
   .item.prev {
     z-index: 2;
-    opacity: 0.9;
+    opacity: 0.7;
     transform: translate(-125%, -50%);
   }
   
   .item.next {
     z-index: 2;
-    opacity: 0.9;
+    opacity: 0.7;
     transform: translate(25%, -50%);
   }
   
@@ -760,11 +760,13 @@ border-radius: 30px 0px 30px 30px;
   height: 463px;
   opacity: 0.8;
   right: 10px;
+  z-index: -1;
 }
 .extra2{
   position: absolute;
   height: 463px;
   opacity: 0.8;
+  z-index: -1;
   /* margin: 10px; */
   left: 30px;
 }
@@ -875,4 +877,46 @@ border-radius: 30px 0px 30px 30px;
 }
 .resp_container p{
   font-size: 0.8rem;
+}
+.resp_image{
+  max-width: 85%;
+}
+.mobile_slider{
+  display: none;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  margin: 50px auto;
+}
+
+.boom_mobile{
+  height: 32px;
+  position: absolute;
+  margin: -8px -303px;
+}
+.egt_mobile{
+  height: 32px;
+  position: absolute;
+  margin: -8px -303px;
+}
+.egt_icon_mobile{
+  position: absolute;
+  margin: -4px -279px;
+}
+.image1_grid p{
+  font-size: 0.8rem;
+    color: #fff;
+    position: absolute;
+    margin: -238px 288px;
+
+}
+.playNgo_mobile{
+  height: 32px;
+  position: absolute;
+  margin: -8px -303px;
+}
+.playNgo_icon_mobile{
+  position: absolute;
+  margin: -3px -289px;
+  height: 20px;
 }
