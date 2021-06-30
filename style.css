@@ -273,7 +273,7 @@ body {
 .carousel_title{
     font-size: 0.8rem;
     margin: -71px auto;
-    width: 590px;
+    max-width: 590px;
     text-align: center;
     color: #fff;
 }
