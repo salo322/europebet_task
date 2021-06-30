@@ -48,35 +48,6 @@ const slider = document.querySelector(".items");
 			button[i].addEventListener("click", () => {
 				i == 0 ? gotoPrev() : gotoNext()
 				
-				// let slidesArray = Array.from(slides);
-				// slidesArray.forEach((slide)=>{
-				// 	console.log(slidesArray.indexOf(document.querySelector(".active")))
-				// 	let index = slidesArray.indexOf(document.querySelector(".active"))
-					    
-				// 	if(slide.classList.contains('active')){
-		
-				// 		lines1[index].style.background = '#fff'
-				// 		lines1[index].style.opacity = '1'
-				// 		lines2[index].style.background = '#fff'
-				// 		lines2[index].style.opacity = '1'
-				// 		lines3[index].style.background = '#fff'
-				// 		lines3[index].style.opacity = '1'
-				// 	}if(slide.classList.contains("next")){
-				// 		lines1[index].style.background = '#DFCDF8'
-				// 		lines1[index].style.opacity = '0.6'
-				// 		lines2[index].style.background = '#DFCDF8'
-				// 		lines2[index].style.opacity = '0.6'
-				// 		lines3[index].style.background = '#DFCDF8'
-				// 		lines3[index].style.opacity = '0.6'
-				// 	}if(slide.classList.contains("prev")){
-				// 		lines1[index].style.background = '#DFCDF8'
-				// 		lines1[index].style.opacity = '0.6'
-				// 		lines2[index].style.background = '#DFCDF8'
-				// 		lines2[index].style.opacity = '0.6'
-				// 		lines3[index].style.background = '#DFCDF8'
-				// 		lines3[index].style.opacity = '0..6'
-				// 	}
-				// })
 			});
 		}
 
@@ -95,11 +66,11 @@ const slider = document.querySelector(".items");
 				slides[i].classList.remove("next");
 			}
 
-			if (next == 3) {
+			if (next === 3) {
 				next = 0;
 			}
 
-			if (prev == -1) {
+			if (prev === -1) {
 				prev = 2;
 			}
 
@@ -141,7 +112,10 @@ const slider = document.querySelector(".items");
 					items:3
 				},
 				1000:{
-					items:5
+					items:8
+				},
+				1700:{
+					items:12
 				}
 			}
 		})
