@@ -94,20 +94,32 @@
         /* .mobile_slider{
             display: flex;
         } */
+        .girl {
+            width: 362px;
+            margin: -270px -224px;
+            opacity: 0.6;
+        }
         .image_ellips {
+            position: absolute;
+            margin: -186px 0;
+            width: 250px;
+        }
+        .image_ellips_egt {
             position: absolute;
             margin: -186px 0;
             width: 250px;
         }
         .mask-group {
             position: absolute;
-            margin: -34px -117px;
+            margin: -46px -117px;
             width: 163px;
+            opacity: 0.7;
         }
         .before-mask-group {
             position: absolute;
             width: 89px;
-            margin: -167px -80px;
+            margin: -181px -80px;
+            opacity: 0.7;
         }
         .flex-container_last {
             margin: 70px 5%;
@@ -293,17 +305,41 @@
             border-radius: 10px 0px 20px 10px;
             margin-top: -88px;
         }
+        .flex-container-bm p{ 
+            z-index: 1;
+            max-width: 150px;
+        }
+        .playNgo_button{
+            z-index: 1;
+        }
+        
+        .grape{
+            opacity: 0.6;
+        }
+        
         .playNgo_sec_image{
+            height: auto;
             width: auto;
+        }
+        .triangle{
+            margin: -5px 60px;
+        }
+        .triangle3 {
+            
+            margin: -5px 77px;
         }
     }
     @media only screen and (max-width: 495px) {
         /* .mobile_slider{
             display: flex;
         } */
+        .flex-container-bm p{ 
+            z-index: 1;
+            max-width: 150px;
+        }
         .mask-group {
             position: absolute;
-            margin: -19px -80px;
+            margin: -31px -80px;
             width: 128px;
             opacity: 0.7;
         }
@@ -314,7 +350,7 @@
         .before-mask-group {
             position: absolute;
             width: 76px;
-            margin: -130px -55px;
+            margin: -159px -55px;
             opacity: 0.7;
         }
         .grape{
@@ -332,6 +368,10 @@
         .triangle{
             margin: -5px 60px;
         }
+        .triangle3 {
+            
+            margin: -5px 77px;
+        }
         .image_ellips {
             position: absolute;
             margin: -220px 0;
@@ -342,13 +382,15 @@
             margin: -220px 0;
             width: 200px;
         }
+        
         .playNgo_sec_image{
             width: auto;
+            height: auto;
         }
         .girl {
             opacity: 0.6;
             width: 309px;
-            margin: -224px -200px;
+            margin: -230px -200px;
         }
         .playNgo_button{
             z-index: 1;

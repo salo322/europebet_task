@@ -431,6 +431,10 @@ body {
     font-size: 0.8rem;
     justify-content: flex-start;
 }
+.flex-container-bm p{
+  text-align: left;
+  
+}
 .flex-container-bm img{
   height: 11px;
   width: 11px;
