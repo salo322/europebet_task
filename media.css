@@ -557,6 +557,14 @@
         /* .mobile_slider{
             display: flex;
         } */
+        .acordion_inner_div{
+            font-size: 0.7rem;
+        }
+        .boom_titles_list {
+            text-align: left;
+            width: auto;
+            margin: 5%;
+        }
         .above_image {
             height: 25px !important;
             width: 106px !important;

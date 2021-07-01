@@ -49,6 +49,9 @@ body {
     text-align: center;
     margin: 13px auto;
 }
+.boom_button  {
+    white-space: nowrap;
+}
 .header_flex_container p{
     font-size: 1.7em;
 }
