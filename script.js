@@ -51,7 +51,7 @@ const slider = document.querySelector(".items");
 			});
 		}
 
-		const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
+		const gotoPrev = () => current > 0 ? gotoNum(current - 1) : current-1 ;
 
 		const gotoNext = () => current < 2 ? gotoNum(current + 1) : gotoNum(0);
 
@@ -60,7 +60,7 @@ const slider = document.querySelector(".items");
 			prev = current - 1;
 			next = current + 1;
 
-			for (let i = 0; i < slides.length; i++) {
+			for (let i = 0; i < 3; i++) {
 				slides[i].classList.remove("active");
 				slides[i].classList.remove("prev");
 				slides[i].classList.remove("next");
@@ -73,7 +73,8 @@ const slider = document.querySelector(".items");
 			if (prev === -1) {
 				prev = 2;
 			}
-
+           
+			console.log(prev,next)
 			slides[current].classList.add("active");
 			slides[prev].classList.add("prev");
 			slides[next].classList.add("next");
@@ -104,12 +105,17 @@ const slider = document.querySelector(".items");
 			loop:true,
 			margin:10,
 			nav:true,
+			autoplay:true,
+			autoplayTimeout:1000,
 			responsive:{
 				0:{
 					items:1
 				},
-				600:{
+				300:{
 					items:3
+				},
+				600:{
+					items:5
 				},
 				1000:{
 					items:8

@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @font-face {
-
     font-family: 'myPacifico' ;
-    src: url('/fonts/geosanslight_regular.ttf') format('truetype');
- 
+    src: url('./fonts/bpg_nino_mtavruli_bold.ttf') format('truetype');
  }
 
 * {
@@ -25,7 +23,9 @@ body {
     background-size: cover;
     height: 550px;
 }
-
+.owl-nav{
+  display: none;
+}
 .header_container_inner_title {
     text-align: center;
     font-size: 1.1em;

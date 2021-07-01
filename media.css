@@ -296,7 +296,10 @@
             padding: 5px;
         }
         
-            
+        .owl-carousel {
+            margin: 0 auto !important;
+            padding: 40px !important;
+        }
         .second_container_benz {
             display: flex;
             margin: 0 16%;
@@ -329,6 +332,9 @@
         .triangle3 {
             
             margin: -5px 77px;
+        }
+        .leaderboards_actions p{
+            margin-top: 20px;
         }
         .header_container_inner_title p{
             width: auto;
@@ -538,11 +544,64 @@
             border-radius: 10px 0px 20px 10px;
             margin-top: -88px;
         }
+        .owl-carousel {
+            margin: 0 auto !important;
+            padding: 30px !important;
+        }
+        .leaderboards_actions p{
+            margin-top: 20px;
+        }
+
     }
     @media only screen and (max-width: 438px) {
         /* .mobile_slider{
             display: flex;
         } */
+        .above_image {
+            height: 25px !important;
+            width: 106px !important;
+            object-fit: fill !important;
+            margin: 0 68px !important;
+            position: absolute;
+        }
+        .playNgo{
+            margin: 4px 79px;
+
+        }
+        .final-2{
+            margin: 6px 146px;
+
+        }
+        .egt{
+            margin: 4px 87px;
+        }
+        .final{
+            margin: 6px 133px;
+        }
+        .line{
+            margin: 0 -3px;
+        }
+        .line2{
+            margin: 0 167px;
+        }
+        .line3{
+            margin: 115px 80px;
+        }
+        .leaderBoard_menu_title p {
+            font-size: 1.2rem;
+            padding: 5px;
+            color: #fff;
+        }
+        .leaderboards_actions p {
+            color: #fff;
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 20px;
+            margin: 20px 5px;
+        }
+        .carousel_title{
+            margin: -150px 10px;
+        }
         .items .item{
             width: 250px;
             height: 128px;
@@ -645,6 +704,10 @@
             margin: -110px auto;
             /* flex-direction: column; */
             cursor: pointer;
+        }
+        .owl-carousel {
+            margin: 0 auto !important;
+            padding: 30px !important;
         }
         .items .button-container {
             top:50%;
