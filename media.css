@@ -470,7 +470,7 @@
         .boom_titles_list {
             text-align: left;
             width: auto;
-            margin: 0 5%;
+            margin: 10px 5%;
         }
         .flex_list_container {
             display: flex;
@@ -550,6 +550,9 @@
         }
         .leaderboards_actions p{
             margin-top: 20px;
+        }
+        .responsive_footer{
+            font-size: 0.9rem;
         }
 
     }
@@ -729,6 +732,11 @@
         }
         .header_flex_container p {
             display: none;
+        }
+        .boom_titles_list {
+            text-align: left;
+            width: auto;
+            margin: 10px 5%;
         }
         .egt_sec_image{
             width: auto;

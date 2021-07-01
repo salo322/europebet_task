@@ -52,6 +52,12 @@ body {
 .boom_button  {
     white-space: nowrap;
 }
+.playNgo_button {
+  white-space: nowrap;
+}
+.egt_button {
+  white-space: nowrap;
+}
 .header_flex_container p{
     font-size: 1.7em;
 }
